@@ -1,0 +1,374 @@
+/* style */
+
+/* animation resources
+
+https://www.w3schools.com/cssref/css3_pr_animation-direction.asp
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation
+http://www.layoutit.com/build
+https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix
+https://css-tricks.com/guide-svg-animations-smil/
+
+Images fade in and out:
+
+http://css3.bradshawenterprises.com/cfimg/
+
+
+
+Open source image
+
+https://opensource.org/logo-usage-guidelines
+
+Dropdown menu
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button
+
+
+
+http://www.hongkiat.com/blog/svg-animations/
+
+*/
+
+
+/*
+-----------------------------------------------------
+Typography
+-----------------------------------------------------
+*/
+
+h1 {
+	text-align: Center;
+	font-family: Helvetica;
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 50px;
+	font-family: 'Audiowide', cursive;
+	text-align: Center;
+}
+
+h4 {
+	text-align: center;
+	font-family: Verano;
+	font-size: 25px;/*
+	min-width: 960px;*/
+	background-color: white
+	color: black;
+
+}
+
+h6 {
+	color: black;
+	text-align: center;
+	color: black;
+	font-family: Times new roman;
+	font-size: 15px;
+}
+
+p {
+	color: black;
+	text-align: center;
+	color: black;
+	font-family: Times new roman;
+	font-size: 50px;
+	position: relative;
+}
+
+/*
+-----------------------------------------------------
+List items
+-----------------------------------------------------
+*/
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	text-align: center;
+}
+
+li {
+	border-radius: 1px solid #bbb;
+	overflow: auto;
+	text-align: center;
+}
+
+a {
+	float: left;
+	padding: 2px;
+	text-align: center;
+	font-family: Aharoni;
+	font-size: 20px;
+	color: White;
+	text-decoration: none;
+}
+ 
+li a {
+	display: inline-block;
+	text-align: center;
+	padding: 12px 12px;
+	margin: 1px 5px 5px 10px;
+	background-color: Black;
+	overflow: auto;
+}
+
+/*
+ol {
+	display: block;
+	text-align: center;
+	overflow: auto;
+}
+
+ul,
+li,
+li a,
+ol {
+	min-height: 100px;
+	min-width: 100px;
+	position: relative;
+}
+
+*/
+
+/*
+-----------------------------------------------------
+HTML 
+-----------------------------------------------------
+*/
+/*
+.homepage {
+	background-image: url("C:\Users\Marco\Desktop\Vita\Portfolio webpages\Pages\Images\castle.png"); 
+	background-repeat: no-repeat;
+	file
+	img/a.png
+}
+*/
+
+body {
+	/*grid; add this */
+	background-color: light-gray;
+}
+
+footer {
+	text-align: center;
+}
+
+.homepage {
+	background-color: white;
+	background: -webkit-radial-gradient{circle, #FFFEFE, #DDFEFF};
+  	background: -moz-radial-gradient(circle, #FFFEFE, #DDFEFF);
+  	background: radial-gradient(to right, #FFFEFE, #DDFEFF);
+}
+
+.aboutpage {
+	background-color: white;
+	background: -webkit-radial-gradient{circle, #FFFEFE, #959393};
+  	background: -moz-radial-gradient(circle, #FFFEFE, #959393);
+  	background: radial-gradient(circle, #FFFEFE, #959393);
+}
+
+.workpage {
+	background-color: white;
+	background: -webkit-radial-gradient{circle, #FFFEFE, #FBFFDD};
+  	background: -moz-radial-gradient(circle, #FFFEFE, #FBFFDD);
+  	background: radial-gradient(circle, #FFFEFE, #FBFFDD);
+}
+
+.opensourcepage {
+	background-color: white;
+	background: -webkit-radial-gradient{circle, #FFFEFE, #959393};
+  	background: -moz-radial-gradient(circle, #FFFEFE, #959393);
+  	background: radial-gradient(circle, #FFFEFE, #959393);
+}
+
+.workimgs,
+.workimgs a {
+	text-align: center;
+	white-space: 15px;
+}
+
+.backimage {
+	position: absolute;
+	text-align: center;
+}
+
+/*
+-----------------------------------------------------
+Misc 
+-----------------------------------------------------
+*/
+
+button {
+	color: black;
+}
+
+.btn {
+	text-align: center;
+	white-space: 1px;
+}
+
+/*
+.work {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 58.33333333%;
+	float: left;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	border: 0px double #000;
+	white-space: 1px;
+}
+*/
+
+.social-media {
+	width: 50px;
+	height: 50px;
+	padding-left: 15px;
+}
+
+
+/* 
+
+background-image {
+	url: ;
+}
+
+*/
+
+
+/* The section below was not made by me. 
+	resource found here: 
+
+	*/
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  /* adds animation for all transitions */
+  
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+
+/* Makes sure that everything is 100% height */
+/*
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+*/
+
+/* gets the actual input out of the way; 
+we're going to style the label instead */
+
+#drawer-toggle {
+  position: absolute;
+  opacity: 0;
+}
+
+#drawer-toggle-label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  left: 0px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: fixed;
+  background: rgba(255, 255, 255, .0);
+  z-index: 1;
+}
+/* adds our "hamburger" menu icon */
+
+#drawer-toggle-label:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 24px;
+  background: #8d8d8d;
+  left: 13px;
+  top: 18px;
+  box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d;
+}
+
+
+/* drawer menu pane - note the 0px width */
+
+#drawer {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  height: 100%;
+  width: 300px;
+  background: #2f2f2f;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/* checked styles (menu open state) */
+
+#drawer-toggle:checked ~ #drawer-toggle-label {
+  height: 100%;
+  width: calc(100% - 300px);
+  background: rgba(255, 255, 255, .8);
+}
+
+#drawer-toggle:checked ~ #drawer-toggle-label,
+#drawer-toggle:checked ~ header {
+  left: 300px;
+}
+
+#drawer-toggle:checked ~ #drawer {
+  left: 0px;
+}
+
+#drawer-toggle:checked ~ #page-content {
+  margin-left: 300px;
+}
+
+/* checked styles (menu open state) */
+
+#drawer-toggle:checked ~ #drawer-toggle-label {
+  height: 100%;
+  width: calc(100% - 300px);
+  background: rgba(255, 255, 255, .8);
+}
+
+#drawer-toggle:checked ~ #drawer-toggle-label,
+#drawer-toggle:checked ~ header {
+  left: 300px;
+}
+
+#drawer-toggle:checked ~ #drawer {
+  left: 0px;
+}
+
+#drawer-toggle:checked ~ #page-content {
+  margin-left: 300px;
+}
