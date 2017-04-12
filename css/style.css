@@ -162,7 +162,7 @@ footer {
 	background-color: white;
 	background: -webkit-radial-gradient{circle, #FFFEFE, #DDFEFF};
   	background: -moz-radial-gradient(circle, #FFFEFE, #DDFEFF);
-  	background: radial-gradient(to right, #FFFEFE, #DDFEFF);
+  	background: radial-gradient(circle, #FFFEFE, #DDFEFF);
 }
 
 .aboutpage {
