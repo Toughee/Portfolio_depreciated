@@ -197,6 +197,11 @@ footer {
 	text-align: center;
 }
 
+refs {
+	text-align: center;
+	background: blue;
+}
+
 /*
 -----------------------------------------------------
 Misc 
@@ -212,21 +217,16 @@ button {
 	white-space: 1px;
 }
 
-/*
-.work {
-	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 58.33333333%;
-	float: left;
-	text-align: center;
-	width: 500px;
-	height: 500px;
-	display: inline-block;
-	border: 0px double #000;
-	white-space: 1px;
+.btn-ref {
+	border-radius: 117px 117px 117px 117px;
+	-moz-border-radius: 117px 117px 117px 117px;
+	-webkit-border-radius: 117px 117px 117px 117px;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #000000;
+	background: #dbdbdb;
 }
-*/
+
+
 
 .social-media {
 	width: 50px;
