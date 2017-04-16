@@ -160,9 +160,10 @@ footer {
 
 .homepage {
 	background-color: white;
-	background: -webkit-radial-gradient{circle, #FFFEFE, #DDFEFF};
-  	background: -moz-radial-gradient(circle, #FFFEFE, #DDFEFF);
-  	background: radial-gradient(to right, #FFFEFE, #DDFEFF);
+	background: -webkit-radial-gradient{circle, #007CA5, #DDFEFF};
+  	background: -moz-radial-gradient(circle, #007CA5, #DDFEFF);
+  	background: radial-gradient(circle, #007CA5, #DDFEFF);
+  	padding: 200px 200px 200px 475px;
 }
 
 .aboutpage {
@@ -194,6 +195,11 @@ footer {
 
 .backimage {
 	position: absolute;
+	text-align: center;
+}
+
+.intro {
+	padding: 200px 200px 200px 475px;
 	text-align: center;
 }
 
