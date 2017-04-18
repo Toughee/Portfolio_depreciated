@@ -42,18 +42,18 @@ h1 {
 h3 {
     font-weight: 500;
     font-size: 50px;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Poller One';
     text-align: Center;
+    color : White;
 }
+
 h4 {
     text-align: center;
-    font-family: Verano;
+    font-family: 'Roboto';
     font-size: 25px;
-    /*
-	min-width: 960px;*/
-    
-    background-color: white color: black;
+    color: White;
 }
+
 h6 {
     color: black;
     text-align: center;
@@ -64,8 +64,8 @@ h6 {
 p {
     color: black;
     text-align: center;
-    color: black;
-    font-family: Times new roman;
+    color: White;
+    font-family: 'Comfortaa';
     font-size: 50px;
     position: relative;
 }
@@ -126,75 +126,23 @@ ol {
 HTML 
 -----------------------------------------------------
 */
-/*
-.homepage {
-	background-image: url("C:\Users\Marco\Desktop\Vita\Portfolio webpages\Pages\Images\castle.png"); 
-	background-repeat: no-repeat;
-	file
-	img/a.png
-}
-*/
 
 body {
-    /*grid; add this */
-    
-    background-color: light-gray;
+    /*add a grid to this */
+    background: rgba(173,192,199,1);
+    background: -moz-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(173,192,199,1)), color-stop(100%, rgba(112,181,255,1)));
+    background: -webkit-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
+    background: linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc0c7', endColorstr='#70b5ff', GradientType=1 );
 }
+
 footer {
     text-align: center;
 }
-.homepage {
-    background-color: white;
-    background: -webkit-radial-gradient {
-        circle, #FFFEFE, #DDFEFF
-    }
-    ;
-    background: -moz-radial-gradient(circle,
-    #FFFEFE,
-    #DDFEFF);
-    background: radial-gradient(circle,
-    #FFFEFE,
-    #DDFEFF);
-}
-.aboutpage {
-    background-color: white;
-    background: -webkit-radial-gradient {
-        circle, #FFFEFE, #959393
-    }
-    ;
-    background: -moz-radial-gradient(circle,
-    #FFFEFE,
-    #959393);
-    background: radial-gradient(circle,
-    #FFFEFE,
-    #959393);
-}
-.workpage {
-    background-color: white;
-    background: -webkit-radial-gradient {
-        circle, #FFFEFE, #FBFFDD
-    }
-    ;
-    background: -moz-radial-gradient(circle,
-    #FFFEFE,
-    #FBFFDD);
-    background: radial-gradient(circle,
-    #FFFEFE,
-    #FBFFDD);
-}
-.opensourcepage {
-    background-color: white;
-    background: -webkit-radial-gradient {
-        circle, #FFFEFE, #959393
-    }
-    ;
-    background: -moz-radial-gradient(circle,
-    #FFFEFE,
-    #959393);
-    background: radial-gradient(circle,
-    #FFFEFE,
-    #959393);
-}
+
 .workimgs,
 .workimgs a {
     text-align: center;
