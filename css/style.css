@@ -21,10 +21,6 @@ Dropdown menu
 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button
 
-
-
-http://www.hongkiat.com/blog/svg-animations/
-
 */
 /*
 -----------------------------------------------------
@@ -55,11 +51,10 @@ h4 {
 }
 
 h6 {
-    color: black;
+    color: white;
     text-align: center;
-    color: black;
-    font-family: Times new roman;
-    font-size: 15px;
+    font-family: 'Roboto';
+    font-size: 25px;
 }
 p {
     color: black;
@@ -68,6 +63,7 @@ p {
     font-family: 'Comfortaa';
     font-size: 50px;
     position: relative;
+    padding-top: 15px;
 }
 /*
 -----------------------------------------------------
@@ -104,23 +100,15 @@ li a {
     background-color: Black;
     overflow: auto;
 }
-/*
+
+
 ol {
 	display: block;
 	text-align: center;
 	overflow: auto;
 }
 
-ul,
-li,
-li a,
-ol {
-	min-height: 100px;
-	min-width: 100px;
-	position: relative;
-}
 
-*/
 /*
 -----------------------------------------------------
 HTML 
@@ -186,13 +174,8 @@ button {
     height: 50px;
     padding-left: 15px;
 }
-/* 
 
-background-image {
-	url: ;
-}
 
-*/
 /* The section below was not made by me. 
 	resource found here: 
 
