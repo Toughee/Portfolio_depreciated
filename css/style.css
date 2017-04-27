@@ -5,26 +5,19 @@ https://www.w3schools.com/cssref/css3_pr_animation-direction.asp
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation
 http://www.layoutit.com/build
 https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix
-https://css-tricks.com/guide-svg-animations-smil/
 
 Images fade in and out:
 
 http://css3.bradshawenterprises.com/cfimg/
 
-
-
 Open source image
 
 https://opensource.org/logo-usage-guidelines
 
-Dropdown menu
-
-https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button
-
 */
 /*
 -----------------------------------------------------
-Typography
+                    Typography
 -----------------------------------------------------
 */
 
@@ -40,18 +33,18 @@ h3 {
     font-size: 50px;
     font-family: 'Poller One';
     text-align: Center;
-    color : White;
+    color : black;
 }
 
 h4 {
     text-align: center;
     font-family: 'Roboto';
     font-size: 25px;
-    color: White;
+    color: black;
 }
 
 h6 {
-    color: white;
+    color: Black;
     text-align: center;
     font-family: 'Roboto';
     font-size: 25px;
@@ -116,18 +109,7 @@ HTML
 */
 
 body {
-    /*add a grid to this */
-    /*
-    background: rgba(173,192,199,1);
-    background: -moz-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(173,192,199,1)), color-stop(100%, rgba(112,181,255,1)));
-    background: -webkit-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
-    background: linear-gradient(45deg, rgba(173,192,199,1) 0%, rgba(112,181,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc0c7', endColorstr='#70b5ff', GradientType=1 );
-*/
-
+    /*add a grid to this later on*/
 background: rgba(253,247,255,1);
 background: -moz-linear-gradient(top, rgba(253,247,255,1) 0%, rgba(253,247,255,1) 31%, rgba(148,215,235,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,247,255,1)), color-stop(31%, rgba(253,247,255,1)), color-stop(100%, rgba(148,215,235,1)));
@@ -141,8 +123,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf7ff', end
 
 footer {
     text-align: center;
-    color: white;
-    border: 1px, thin;
+    color: black;
+    border: 1px, solid, #000000;
     padding-bottom: 25px; 
 }
 
@@ -155,13 +137,12 @@ footer {
     position: absolute;
     text-align: center;
 }
-refs {
-    text-align: center;
-    background: blue;
+.refs {
+    position: relative;
 }
-about-refs {
-	text-align: center;
-	padding: 10px 5px 10px 5px;
+.about-refs {
+    position: relative;
+
 }
 /*
 -----------------------------------------------------
