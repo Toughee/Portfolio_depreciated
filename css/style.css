@@ -1,20 +1,4 @@
-/* style */
-/* animation resources
 
-https://www.w3schools.com/cssref/css3_pr_animation-direction.asp
-https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation
-http://www.layoutit.com/build
-https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix
-
-Images fade in and out:
-
-http://css3.bradshawenterprises.com/cfimg/
-
-Open source image
-
-https://opensource.org/logo-usage-guidelines
-
-*/
 /*
 -----------------------------------------------------
                     Typography
@@ -124,8 +108,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf7ff', end
 footer {
     text-align: center;
     color: black;
-    border: 1px, solid, #000000;
-    padding-bottom: 25px; 
 }
 
 .workimgs,
@@ -143,6 +125,18 @@ footer {
 .about-refs {
     position: relative;
 
+}
+.intro {
+    text-align: center;
+}
+.contc1 {
+    text-align: left;
+    padding-left: 275px; 
+}
+.contc2 {
+    text-align: right;
+    padding-left: 1000px;
+    padding-bottom: 160px;
 }
 /*
 -----------------------------------------------------
