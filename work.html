@@ -1,98 +1,94 @@
-<!DOCTYPE html>
+<!Doctype html>
 
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <title>Work</title>
+    <title>Personal Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
+    </style>
 
 </head>
 
-<body>
+<body onload="startTime()">
 
-    <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
-    <label for="drawer-toggle" id="drawer-toggle-label"></label>
-    <!--
-   <header>Menu</header>
-   -->
-    <nav id="drawer">
-        <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT ME</a></li>
-            <li><a href="openSource.html">OPEN SOURCE CONTRIBUTIONS</a></li>
-            <li><a>CONTACT ME</a>
+<header>
+    <ul>
+        <li><a href="home.html">HOME</a>
+        </li>
+        <li><a href="about.html">ABOUT ME</a>
+        </li>
+        <li><a class="current" href="work.html">WORK</a>
+        </li>
+    </ul>
+</header>
 
-            </li>
-        </ul>
 
-        <div>
-            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
-                <img class="social-media" src='Images\media-icons\Email-circle.png' width="250" height="200"> </a>
-            </img>
+    <div class="samples">
+        <!-- XP4ME | HTML, js -->
+        <a href="https://toughee.github.io/XP4ME/">
+            <img src="imgs\Work-imgs\newsv\xp4me.png" width="300" height="250" alt="XP4ME">
+        </a>
+        <h5> Voluntaire- </h5>
+        <!-- Display.js | Javascript -->
+        <a href="https://toughee.github.io/pyvizualise/">
+        <img src="imgs\Work-imgs\newsv\Pyviz.png" width="300" height="250" alt="Pyviz">
+        </a>
+        <h5> Voluntaire- </h5>
 
-            <a href="https://twitter.com/Tougfee">
-                <img class="social-media" src='Images\media-icons\twitter-circle.png' width="125" height="125">
-            </a>
-            </img>
+        <!-- Croptyoshka | HTML, imagemagick, js -->
+        <a href="https://toughee.github.io/Croptyoshka/">
+        <img src="imgs\Work-imgs\newsv\croptyoshka.png" width="300" height="250" Alt=Croptyoshka>
+        </a>
+        <h5> Voluntaire- </h5>
+
+        <!-- FinTerritorial - Data web app | HTML, PHP -->
+        <a href="https://toughee.github.io/FinTerritorial/">
+            <img src="imgs\Work-imgs\newsv\us-finance.png" width="300" height="250" alt="Finance-app">
+        </a>
+        <h5> Voluntaire- </h5>
+
+        <!-- qBudget - Statistics app | Python -->
+        <a href="https://toughee.github.io/qBudget/">
+        <img src="imgs\Work-imgs\newsv\qbudget.png" width="300" height="250" alt="qBudget">
+        </a>
+        <h5> Voluntaire- </h5>
+
+    </div>
 
             <a href="https://github.com/Toughee">
-                <img class="social-media" src='Images\media-icons\github-circle.png' width="125" height="125">
+            <i class="fa fa-github-alt social" style="font-size:40px;color:white"></i>
             </a>
-            </img>
-        </div>
-
-    </nav>
-
-    <div id="page-content">
-        <!--   <p>Work</p> -->
-    </div>
-
-    <br>
-    <section>
-
-        <h3> A sample of my work</h3>
-
-    </section>
-
-    <br>
-
-    <div class="workimgs">
-
-        <!-- Add hover text description for images. Tile them  3 or 4 x 4-->
-
-        <!-- Project 1 - Xp4me | HTML -->
-        <!--<a href = "https://toughee.github.io/Xp4me/"> -->
-        <img src="C:\Users\Marco\gitstockpile\Portfolio\Images\Work-imgs\xp4me-splash.JPG" width="350" height="300" alt="work2">
-
-        <!-- Pyvisualize | Python-->
-        <img src="C:\Users\Marco\gitstockpile\Portfolio\Images\Work-imgs\Pyvis-splash.png" width="350" height="300" alt="work3">
-
-        <!-- Croptyoshka | HTML , Python , imagewiszard? -->        
-        <img src="https://raw.githubusercontent.com/Toughee/Croptyoshka/master/Resource%20images/splash%20page1.PNG" width="350" height="300" alt="work4">
-        </a>
-
-        <!-- Short-Termn | Shell -->
-        <img src="C:\Users\Marco\gitstockpile\Portfolio\Images\Work-imgs\Short-TermnSplash page.png" width="350" height="300" alt="work5">
-
-        <!-- Opendataproject | HTML , -->
-        <!--<a href = "https://github.com/Toughee/opendataproject1">-->
-        <img src="C:\Users\Marco\gitstockpile\Portfolio\Images\Work-imgs\open-data-project.JPG" width="350" height="300" alt="work6">
-
-        <!-- Statistics app -->
-        <img src="Images\Work-imgs\qBudget.png" width="350" height="300" alt="work7">     
-
-    </div>
-
-</body>
 
 <footer>
+<div class = "social-icns">
+            <a href="https://github.com/Toughee">
+            <i class="fa fa-github-alt social" style="font-size:40px;color:white"></i>
+            </a>
 
-    <small>&copy;  2017 - Toughfee</small>
+            <a href ="https://twitter.com/Tougfee">
+            <i class="fa fa-twitter social" style="font-size:40px;color:white">
+            </a></i>
 
+            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
+            <i class="material-icons" style="font-size:40px;color:white">contact_mail</i>
+            </a>
+</div>
+
+            <div id="timex">
+            </div>
+
+
+    <script src = "js/time.js"></script>
 </footer>
+
+</body>
 
 </html>

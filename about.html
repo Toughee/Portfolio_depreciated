@@ -1,101 +1,96 @@
-<!DOCTYPE html>
+<!Doctype html>
 
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <title>About </title>
+    <title>about</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
+    </style>
+
 </head>
 
-<body class="aboutpage">
 
-    <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
-    <label for="drawer-toggle" id="drawer-toggle-label"></label>
-    <header></header>
-    <nav id="drawer">
-        <ul>
-            <li><a href="home.html">HOME</a>
-            </li>
-            <li><a href="work.html">WORK</a>
-            </li>
-            <li><a href="openSource.html">OPEN SOURCE CONTRIBUTIONS</a>
-            </li>
-            <li><a>CONTACT ME</a>
-            </li>
-        </ul>
+<body onload="startTime()">
 
-        <div>
-            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
-                <img class="social-media" src='Images\media-icons\Email-circle.png' width="250" height="200"> </a>
-            </img>
+<header>
+<menu>
+    <ul>
+        <li><a href="home.html">HOME</a>
+        </li>
+        <li><a class="current" href="about.html">ABOUT ME</a>
+        </li>
+        <li><a href="work.html">WORK</a>
+        </li>
+    </ul>
 
-            <a href="https://twitter.com/Tougfee">
-                <img class="social-media" src='Images\media-icons\twitter-circle.png' width="125" height="125">
-            </a>
-            </img>
+</menu>
+</header>
 
-            <a href="https://github.com/Toughee">
-                <img class="social-media" src='Images\media-icons\github-circle.png' width="125" height="125">
-            </a>
+<!--
+    <div>
+        <div class="container">
+            <div class="row assist">
+                <div class="col-md-3">
+
+                    <a href="imgs\Contact-info\Resume.pdf">
+                        <i class="fa fa-file-text-o" style="font-size:125px;color:white"></i>
+                    </a>
+                        <h6>RESUME</h6>                
+                </div>
+
+                <div class="col-md-6">
+                    <a href="imgs\About-imgs\Postcard.png">
+                        <i class="fa fa-address-card-o" style="font-size:170px;color:white"></i>
+                    </a>
+                    <h6>ABOUT ME</h6>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="imgs\Contact-info\CV.pdf">
+                        <i class="fa fa-file" style="font-size:125px;color:white"></i>
+                    </a>
+                    <h6>CV</h6>
+                </div>
+            </div>
+
         </div>
 
-    </nav>
-    <div id="page-content">
-        <p>A brief summary of me</p>
+        </div>
+
     </div>
-    <!--
-<div class= "workimgs">
-
-<img src = "C:\Users\Marco\Desktop\Vita\svg files personal portfolio\About.svg" width ="300" height = "300"> </img>
-
-</div>
 -->
-    <br>
 
-    <div class="workimgs">
-        <img src='Images\About-imgs\Postcard2.png' width="1300" height="500">
-        
-    </div>
-
-    <br>
-    <p>Like it? Save it or drag it to your desktop so you can share it!</p>
-
-
-
-    <div class="refs">
-
-        <div class = "about-refs">
-        <a href="Contact-info\Resume.pdf">
-            <img src="Images\refs-icon-images\res-ref-icon.png" width ="100" height = "100">
-        </a>  
-            <button class="btn-ref">
-                Resume
-            </button>
-        </div>
-
-        <div class = "about-refs">
-        <a href="">
-
-            <img src="Images\refs-icon-images\recs-ref-icon.png" width ="100" height = "100">
-        </a>
-            <button class="btn-ref">
-                Contacts and recommnedations pdf
-            </button>
-        </div>
-
-    </div>
-
-
-
-</body>
 
 <footer>
+<div class = "social-icns">
+            <a href="https://github.com/Toughee">
+            <i class="fa fa-github-alt social" style="font-size:40px;color:white"></i>
+            </a>
 
-    <small>&copy;  2017 - Toughfee</small>
-    
+            <a href ="https://twitter.com/Tougfee">
+            <i class="fa fa-twitter social" style="font-size:40px;color:white">
+            </a></i>
+
+            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
+            <i class="material-icons" style="font-size:40px;color:white">contact_mail</i>
+            </a>
+</div>
+
+            <div id="timex">
+            </div>
+
+
+    <script src = "js/time.js"></script>
 </footer>
+
+</body>
 
 </html>
