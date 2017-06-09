@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+	 height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="xp4me">
+	<path fill="#FF0808" stroke="#000000" stroke-miterlimit="10" d="M44.5,25.75c0,4.832-3.918,8.75-8.75,8.75h-21.5
+		c-4.833,0-8.75-3.918-8.75-8.75v-0.5c0-4.833,3.917-8.75,8.75-8.75h21.5c4.832,0,8.75,3.917,8.75,8.75V25.75z"/>
+	<rect x="11" y="21.25" fill="none" width="27.75" height="10.125"/>
+	<text transform="matrix(1 0 0 1 12.7124 27.1582)" fill="#FFFFFF" font-family="'ACaslonPro-Regular'" font-size="7">XP4ME</text>
+</g>
+<g id="qbudget" display="none">
+	
+		<rect x="0.261" y="14.022" display="inline" fill="#515252" stroke="#070707" stroke-width="1.0253" stroke-miterlimit="10" width="49.739" height="19.649"/>
+	<rect x="4.872" y="17.462" display="inline" fill="#FFFFFF" width="39.098" height="13.134"/>
+	<rect y="16.545" display="inline" fill="none" width="48.689" height="13.038"/>
+	<text transform="matrix(0.8688 0 0 1 5.6157 29.2832)" display="inline"><tspan x="0" y="0" fill="#5FBA46" font-family="'BuiltTitlingRg-Bold'" font-size="10">q</tspan><tspan x="4.53" y="0" fill="#5FBA46" font-family="'BuiltTitlingRg-Bold'" font-size="14.5">BUDGET</tspan></text>
+</g>
+<g id="pivis" display="none">
+	<ellipse display="inline" fill="#D62027" cx="24.931" cy="24.75" rx="22.069" ry="9.328"/>
+	<rect x="7.552" y="19.141" display="inline" fill="none" width="35.147" height="10.984"/>
+	
+		<text transform="matrix(1.17 0 0 1 8.2427 25.4883)" display="inline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.421" stroke-miterlimit="10" font-family="'BuffaloScript-Regular'" font-size="8.8413">Pyvisualize</text>
+</g>
+<g id="usafinance">
+</g>
+<g id="Croptyoshka">
+</g>
+</svg>

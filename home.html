@@ -1,56 +1,73 @@
-<!DOCTYPE html>
+<!Doctype html>
 
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>revamp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poller+One|Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
+    </style>
 </head>
 
-<body>
+<body onload="startTime()">
+    <ul>
+        <li><a class="current" href="home.html">HOME</a>
+        </li>
+        <li><a href="about.html">ABOUT ME</a>
+        </li>
+        <li><a href="work.html">WORK</a>
+        </li>
+        <!--
+        <li><a href="opensource.html">OPEN SOURCE</a>
+        </li>
+        -->
+    </ul>
 
-    <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
-    <label for="drawer-toggle" id="drawer-toggle-label"></label>
-    <!--
-   <header>Menu</header>
-   -->
-    <nav id="drawer">
-        <ul>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="about.html">ABOUT ME</a></li>
-            <li><a href="openSource.html">OPEN SOURCE CONTRIBUTIONS</a></li>
-            <li><a>CONTACT ME</a>
-            </li>
-        </ul>
+    <div id="introduction">
 
-        <div>
-            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
-                <img class="social-media" src='Images\media-icons\Email-circle.png' width="250" height="200"> </a>
+<h1>HELLO
+    </h1>
+        <p class="title">
+            My name is <strong>Mario Jiménez</strong> U/I, I'm a <strong>Front end developer</strong> mainly focused on <strong>HTML</strong>, <strong>CSS</strong> and
+            <strong>Javascript</strong>. I contribute regurlary to open source projects on Github like <em>FreeCodeCamp</em> or <em>CodeforAmerica</em>. I'm also a big fan of Science fiction.
+        </p>
+</div>
 
-            <a href="https://twitter.com/Tougfee">
-                <img class="social-media" src='Images\media-icons\twitter-circle.png' width="125" height="125">
-            </a>
-
+<footer>
+<div class = "social-icns">
             <a href="https://github.com/Toughee">
-                <img class="social-media" src='Images\media-icons\github-circle.png' width="125" height="125">
+            <i class="fa fa-github-alt social" style="font-size:40px;color:white"></i>
             </a>
-        </div>
 
-    </nav>
-    <div id="page-content">
-        <!-- <p>...</p> -->
-    </div>
+            <a href ="https://twitter.com/Tougfee">
+            <i class="fa fa-twitter social" style="font-size:40px;color:white">
+            </i></a>
 
-    <div class="intro">
+            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
+            <i class="material-icons" style="font-size:40px;color:white">contact_mail</i>
+            </a>
+</div>
 
-        <object type="image/svg+xml" data="C:\Users\Marco\gitstockpile\Portfolio\Images\Home-imgs\intro_animated.svg"></object>
+<div id="timex"></div>
 
-    </div>
-
+<script src="js/time.js"></script>
+</footer>
 </body>
 
 </html>
+
+<!--
+            <a href="mailto:marotjimenez@gmail.com?Subject=Hello">
+
+            <a href="https://twitter.com/Tougfee">
+
+            <a href="https://github.com/Toughee">
+
+-->
